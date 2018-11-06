@@ -1,0 +1,60 @@
+*{
+    margin:0;padding:0;
+}
+
+.tea_header{
+    width:1420px;height:79px;background-color:#846850;
+    margin:0 auto;position:relative;
+}
+.tea_header>a>img{
+    width:92px;height:42px;position:relative;top:21px;left:50px;
+}
+.tea_center{
+    width:1220px;margin:0 auto;padding-left:170px;
+}
+.tea_center>div{
+    float:left;font-size:12px;margin:0 30px;
+    position:relative;left:1px;bottom:10px;
+    height:47px;
+}
+.tea_center>div>a{
+    font-size:14px;color:#e1d1b9;display:block;
+}
+.tea_center>div a:hover{
+    color:#fff;text-decoration:none;
+}
+.tea_center div:hover{
+    border-bottom:3px #fff solid;
+}
+.tea_center div:visited{
+    border-bottom:3px #00aeef solid;
+}
+.tea_right{
+    position:absolute;top:28px;right:28px;width:74px;height:30px;
+}
+.tea_right>span{
+    background:#b1977d;display:inline-block;float:left;
+    margin:9px 12px;position:relative;width:1px;height:12px;
+}
+.tea_search{
+    width:24px;height:30px;padding:4px 5px 4px 2px;
+    overflow:hidden;display:inline-block;float:left;
+    border:1px solid #89674c;
+}
+.tea_search>span{
+    float:right;width:24px;height:24px;
+    background:url("../img/header/icon2x.png")-43px 0 no-repeat;
+    margin-left:10px;background-size:67px 43px;
+}
+.tea_persona{
+    width:20px;height:20px;overflow:hidden;
+    float:right;display:inline-block;
+}
+.tea_persona>a>span{
+    background-image:url(../img/header/icon2x.png);
+    background-size:67px 43px;width:20px;height:20px;
+    margin-right:10px;display:block;
+}
+.tea_search:hover{
+    display:block;
+}

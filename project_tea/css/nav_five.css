@@ -1,0 +1,21 @@
+.center{margin:0 auto;width:1420px;}
+/*nav*/
+.nav_1{
+    width:1420px;background:#1f1d1e;
+    margin:0 auto;position:relative;height:61px;
+}
+.nav_cen{
+    position:absolute;right:532px;
+}
+.nav_cen>a{
+    font-size:13px;line-height:61px;
+    color:#916f53;margin-left:12px;
+    text-decoration:none;
+}
+.nav_cen>a:hover{
+    color:#ccac82;
+}
+/*主体*/
+.datu{
+ margin:0 auto;
+}

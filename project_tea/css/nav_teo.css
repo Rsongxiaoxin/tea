@@ -1,0 +1,131 @@
+*{margin:0;padding:0}
+.center{
+    width:1420px;margin:0 auto;
+}
+.nav_top{
+    height:68px;
+    background-color:#18181a;
+}
+.nav_cen{
+    width:1220px;height:100%;
+    margin:0 auto;position:relative;
+}
+.nav_top span{
+    float:left;color:#916f53;
+    height:57px;line-height:57px;
+}
+.center .nav_lie{
+    float:right;height:57px;
+}
+.nav_lie>a{
+    text-decoration:none;
+    font-size:13px;line-height:57px;
+    color:#916f53;
+    margin: 0 0 0 29px;
+    display:inline-block;
+}
+.nav_lie>a:hover{
+    border-bottom:3px solid #ccac82;
+    color:#ccac82;
+}
+/*大图*/
+.center_dt{
+    margin-top:120px;
+    border-bottom:1px solid #2d2522;
+}
+.center_dt h3{
+    font-size:48px;color:#ccac82;
+    text-align:center ;
+}
+.center_dt p{
+    color:#fff;font-size:18px;
+    text-align:center;
+}
+/*底部*/
+.bom h3{
+    font-size:30px;color:#ccac82;
+    text-align:center ;
+}
+.bom{
+    height:1850px;padding-top:50px;
+    background:url(../img/nav_two/footer-bg.png)no-repeat center bottom;
+}
+}
+.bom ul{
+    display:block;
+}
+.bom ul li{
+    width:320px;float:left;padding-bottom:70px;
+    display:block;
+    /*height:70px;*/
+}
+.bom ul li a{
+    text-decoration:none;color:#5f4838;
+}
+.bom>ul>li>a>i{
+    width:100%;height:340px;display:block;
+    background:url(../img/nav_two/person-list.png);
+}
+.bom div p{
+    text-align:center;
+    font-size:15px;
+    color:#fff;
+}
+.bom .liao{
+    width:138px;height:32px;
+    line-height:32px;margin:0 auto;
+    display:block;text-align:center;
+    border:1px solid #916f53;
+}
+.bom .liao:hover{
+    background-color:#ccac82;
+}
+.bom>ul>li>i{
+    width:107px;height:88px;
+    margin:0 auto;display:block;
+    background:url(../img/nav_two/box-list.png);
+}
+/*人物背景图片移动*/
+.bom>ul>.sort_2>a>i{
+    background-position:-390px 0;
+}
+.bom>ul>.sort_3>a>i{
+    background-position:-750px 0;
+}
+.bom>ul>.sort_4>a>i{
+    background-position:-1120px 0;
+}
+.bom>ul>.sort_5>a>i{
+    background-position:-1507px 0;
+}
+.bom>ul>.sort_6>a>i{
+    background-position:-1848px 0;
+}
+.bom>ul>.sort_7>a>i{
+    background-position:-2244px 0;
+}
+.bom>ul>.sort_8>a>i{
+    background-position:-2595px 0;
+}
+/*中间图标移动*/
+.bom>ul>.sort_2>i{
+    background-position:-107px 0;
+}
+.bom>ul>.sort_3>i{
+    background-position:-213px 0;
+}
+.bom>ul>.sort_4>i{
+    background-position:-320px 0;
+}
+.bom>ul>.sort_5>i{
+    background-position:-427px 0;
+}
+.bom>ul>.sort_6>i{
+    background-position:-534px 0;
+}
+.bom>ul>.sort_7>i{
+    background-position:-642px 0;
+}
+.bom>ul>.sort_8>i{
+    background-position:-750px 0;
+}

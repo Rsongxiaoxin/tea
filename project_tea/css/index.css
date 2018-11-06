@@ -1,0 +1,96 @@
+body{background:#000;}
+#mycar>ul>li{
+    width:15px;height:15px;border-radius:50%;position:relative;top:-55px;
+}
+#mycar{
+    width:1300px;
+    height:730px;
+    position:relative;right:95px;
+}
+#mycar>ul>li>.content1 h3{
+    font-size:48px;color:#ccac82;font-weight:500;
+    position:absolute;top:-500px;left:918px;
+}
+#mycar>ul>li>.content1 p{
+    font-size:28px;color:#916f53;position:absolute;top:-435px;left:960px;
+}
+
+.tea_xt{
+    width:1420px;height:390px;border-bottom:1px solid #1b1614;
+    margin:0 auto;margin-top:100px;
+}
+.tea_xt1{
+    border-top:1px solid #1b1614;padding-top:30px;
+    margin:0 auto;
+}
+.tea_xt1>ul{list-style:none;text-align:center;}
+.tea_xt1 ul li{
+    position:relative;width:422px;display:inline-block;margin:0 auto;
+}
+.tea_xt1 ul li a{
+    text-decoration:none;color:#5f4838;
+}
+.content1{
+    position:relative;bottom:225px;text-align:center;
+}
+.content1>h3{
+    color:#ccac82;font-size:20px;
+}
+.s1{
+    color:#916f53;font-size:14px;display:inline-block;
+    height:20px;padding-right:20px;
+
+}
+.s1:hover{
+   color:#ccac82;
+}
+.footer>a{
+    position:relative;left:1333px;color:#5f4838;
+    text-decoration:none;bottom:150px;
+}
+
+.footer>span{
+    display:inline-block;
+    width:40px;height:20px;
+    position:relative;left:1320px;color:#5f4838;bottom:150px;
+    background:url(../img/footer/gotop.png) no-repeat right 5px;
+}
+.footer>a:hover{
+    color:#ccac82;
+}
+/*底部*/
+.footer>.tea_fm{
+    color:#5f4838;
+    width:1420px;height:110px;
+    margin:0 auto;margin-top:10px;
+}
+.footer .tea_cen{
+    width:1220px;height:68px;margin:0 auto;
+    position:relative;
+}
+.footer .tea_left{
+    display:inline-block;
+}
+.tea_left>.left_top>a{
+    font-size:12px;color:#5f4838;
+    text-decoration:none;
+}
+.tea_left>.left_top>a:hover{
+    color:#ccac82;
+}
+.tea_left>.left_top>i{
+    height:12px;display:inline-block;width:1px;
+    background-color:#3a2f2b;
+    margin:0 19px;
+}
+.left_top>a>span{
+    font-size:20px;margin-left:10px;
+
+}
+.right_top{
+    float:right;position:relative;
+    bottom:65px;right:70px;
+}
+.right_top span{
+    font-size:24px;
+}
