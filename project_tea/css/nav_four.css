@@ -1,0 +1,38 @@
+body{
+    background-color:#000;
+}
+.center{margin:0 auto;width:1420px;}
+/*nav*/
+.nav_1{
+    width:1420px;background:#1f1d1e;
+    margin:0 auto;position:relative;height:61px;
+}
+.nav_cen{
+    position:absolute;right:532px;
+}
+.nav_cen>a{
+    font-size:13px;line-height:61px;
+    color:#916f53;margin-left:12px;
+    text-decoration:none;
+}
+.nav_cen>a:hover{
+    color:#ccac82;
+}
+/*主体*/
+.zt{text-align:center;position:relative;border-bottom:2px solid #2d2522}
+.zt>h1{
+    font-size:40px;position:absolute;
+    top:425px;left:390px;color:#c4a57d;
+}
+.zt div{
+    position:absolute;top:500px;left:390px;
+    font-size:16px;color:#fff;
+}
+/*主体下半部*/
+.cen_bo>h1{
+    text-align:center;color:#c4a57d;
+    font-size:40px;margin-top:30px;
+}
+.c1{
+    transition:all 3s linear;
+}
