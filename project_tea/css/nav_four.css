@@ -36,3 +36,60 @@ body{
 .c1{
     transition:all 3s linear;
 }
+/*设置中间文字*/
+.tea_bom{
+    width:1059px;margin:0 auto;
+}
+.tea_bom .tea_wen{
+    text-align:center;color:#c4a57d;background-color:#171718;
+    height:60px;font-size:18px;border-radius:8px;
+    line-height:60px;
+}
+.tea_bom #tea_wen{
+    color:#fff;height:120px;line-height:120px;
+    text-align:center;background-color:#171718;
+    margin:10px 0;font-size:18px;
+}
+/*单个文字*/
+.tea_bom a{
+    text-decoration:none;color:#fff;
+    display:inline-block;width:126px;height:111px;
+    border-radius:10px;margin:5px 10px;background-color:#171718;
+    text-align:center;line-height:111px;
+    transition:all 2s linear;
+}
+.tea_bom a:hover{
+    color:#c4a57d;
+}
+.tea_bom .tea_a1 a:hover{
+    transition:all 1s linear;
+    transform:rotate(360deg);
+    background-color:#99ff99;
+}
+.tea_bom .tea_a2 a:hover{
+    transition:all .5s linear;
+    background-color:#99ff66;
+    transform:scale(1.1);
+}
+.tea_bom .tea_a3 a:hover{
+    background:linear-gradient(to left,#99cc99,#33cc00);
+}
+.tea_bom .tea_yi{
+    font-size:36px;
+    background-color:#b79a75;
+}
+.tea_bom .tea_s{
+    font-size:36px;
+    background-color:#8f9199;
+}
+
+
+
+
+
+
+
+
+
+
+
