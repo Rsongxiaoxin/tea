@@ -1,5 +1,8 @@
 .center{margin:0 auto;width:1420px;}
 /*nav*/
+.tea_cen{
+    margin-top:71px;
+}
 .nav_1{
     width:1420px;background:#1f1d1e;
     margin:0 auto;position:relative;height:61px;
