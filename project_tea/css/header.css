@@ -2,6 +2,20 @@
     margin:0;padding:0;
 }
 
+/*底部弹框*/
+#msg{
+    width:150px;height:150px;position:fixed;right:0;
+    transition:all .8s linear;bottom:-150px;
+}
+#msg img{
+    width:150px;height:150px;
+}
+#msg a{
+    position:absolute;top:-4px;right:2px;
+    text-decoration:none;color:#ccc;
+    cursor:pointer;
+}
+
 .tea_header{
     width:1420px;height:79px;background-color:#846850;
     margin:0 auto;position:fixed;z-index:1;/*left:242px;*/top:-1px;
