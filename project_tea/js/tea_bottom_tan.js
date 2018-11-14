@@ -1,0 +1,9 @@
+window.onload=function(){
+    msg.style.bottom="0px";
+}
+msg.children[1].onclick=function(){
+    msg.style.bottom="-200px";
+    setTimeout(function(){
+        msg.style.bottom="0px";
+    },6000)
+}
