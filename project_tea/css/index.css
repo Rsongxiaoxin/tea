@@ -94,3 +94,38 @@ body{background:#000;}
 .right_top span{
     font-size:24px;
 }
+/*侧边栏*/
+.tools-bar{
+    position: fixed;
+    height: 54px;
+    top: 50%;
+    margin-top: -30px;
+    right: 10px;
+}
+.rnav{
+    width: 54px;
+}
+.rnav>a{
+    margin-top: 0;
+    cursor: pointer;
+    width: 54px;
+    height: 62px;
+    display: block;
+}
+.nav-content{
+    position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 48px;
+    top: 0;
+    display: none;
+
+}
+.nav-content1{
+    position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 48px;
+    top: 0;
+    display: none;
+}
