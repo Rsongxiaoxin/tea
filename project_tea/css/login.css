@@ -58,22 +58,7 @@
 .tea_search:hover{
     display:block;
 }
-#gu{
-    width:54px;position:fixed;
-    right:0;top:200px;
-}
-#gu>.rnav{
-    width:54px;
-}
-#gu>.rnav>a{
-    cursor:pointeer;width:54px;height:62px;display:block;
-}
-#gu>.nav_center{
-    position:absolute;width:168px;height:236px;right:48px;display:none;
-}
-#gu>.nav_center1{
-    position:absolute;width:168px;height:236px;right:48px;display:none;
-}
+
 h2{
     text-align:center;font-size:45px;color:#9d6d4a;
     margin-bottom:60px;margin-top:180px;
@@ -137,3 +122,38 @@ p>a:hover{
 .zhuce>.zc>a,div>.fs>a{color:#fff;text-decoration:none;}
 
 
+/*侧边栏*/
+.tools-bar{
+    position: fixed;
+    height: 54px;
+    top: 50%;
+    margin-top: -30px;
+    right: 10px;
+}
+.rnav{
+    width: 54px;
+}
+.rnav>a{
+    margin-top: 0;
+    cursor: pointer;
+    width: 54px;
+    height: 62px;
+    display: block;
+}
+.nav-content{
+    position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 48px;
+    top: 0;
+    display: none;
+
+}
+.nav-content1{
+    position: absolute;
+    width: 168px;
+    height: 236px;
+    right: 48px;
+    top: 0;
+    display: none;
+}

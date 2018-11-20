@@ -1,6 +1,12 @@
 body{
     background-color:#000;
 }
+
+/*固定*/
+/*.tea_header{
+    position:fixed;z-index:1;left:240px;top:-1px;
+}*/
+/*中间距离头部div上边距*/
 .tea_cen{
     margin-top:71px;
 }

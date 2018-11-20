@@ -1,11 +1,10 @@
 *{
     margin:0;padding:0;
 }
-
 /*底部弹框*/
 #msg{
     width:150px;height:150px;position:fixed;right:0;
-    transition:all .8s linear;bottom:-150px;
+    transition:all .8s linear;bottom:-200px;
 }
 #msg img{
     width:150px;height:150px;
@@ -18,8 +17,7 @@
 
 .tea_header{
     width:1420px;height:79px;background-color:#846850;
-    margin:0 auto;position:fixed;z-index:1;/*left:242px;*/top:-1px;
-    left:0;right:0;
+    margin:0 auto;position:fixed;z-index:1;left:0;top:-1px;right:0;
 }
 .tea_header>a>img{
     width:92px;height:42px;position:relative;top:21px;left:50px;

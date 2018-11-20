@@ -1,0 +1,76 @@
+/*底部*/
+body{background:#000}
+.footer>.tea_fm{
+    color:#5f4838;
+    width:1420px;height:110px;
+    margin:0 auto;margin-top:10px;
+}
+.footer .tea_cen{
+    width:1220px;height:68px;margin:0 auto;
+    position:relative;
+}
+.footer .tea_left{
+    display:inline-block;
+}
+.tea_left>.left_top>a{
+    font-size:12px;color:#5f4838;
+    text-decoration:none;
+}
+.tea_left>.left_top>a:hover{
+    color:#ccac82;
+}
+.tea_left>.left_top>i{
+    height:12px;display:inline-block;width:1px;
+    background-color:#3a2f2b;
+    margin:0 19px;
+}
+.left_top>a>span{
+    font-size:20px;margin-left:10px;
+
+}
+.right_top{
+    float:right;position:relative;
+    bottom:65px;right:70px;
+}
+.right_top span{
+    font-size:24px;
+}/*底部*/
+.footer>.tea_fm{
+    color:#5f4838;
+    width:1420px;height:110px;
+    margin:0 auto;margin-top:10px;
+}
+.footer .tea_cen{
+    width:1220px;height:68px;margin:0 auto;
+    position:relative;
+}
+.footer .tea_left{
+    display:inline-block;
+}
+.tea_left>.left_top>a{
+    font-size:12px;color:#5f4838;
+    text-decoration:none;
+}
+.tea_left>.left_top>a:hover{
+    color:#ccac82;
+}
+.tea_left>.left_top>i{
+    height:12px;display:inline-block;width:1px;
+    background-color:#3a2f2b;
+    margin:0 19px;
+}
+.left_top>a>span{
+    font-size:20px;margin-left:10px;
+
+}
+.right_top{
+    float:right;position:relative;
+    bottom:65px;right:70px;
+}
+.right_top span{
+    font-size:24px;
+}
+.footer>a{
+    position:relative;left:1333px;color:#5f4838;
+    text-decoration:none;bottom:150px;
+}
