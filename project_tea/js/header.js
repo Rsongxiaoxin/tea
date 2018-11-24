@@ -11,6 +11,15 @@ $(function() {
     })
 
 });
+// 自动获取输入框焦点
+Vue.directive("focus",{
+    inserted(elem){
+        elem.focus();
+    }
+})
+var vm=new Vue({
+    el:"#app"
+})
 
 
 

@@ -57,7 +57,9 @@ $(function(){
     $(".testing").on("click","li",function () {
         $(this).children(":last-child").addClass("determine").parent().siblings().children(":last-child").removeClass("determine");
     });
-     // 下拉菜单
+
+
+    // 下拉菜单
     $(".ite>a:eq(0)").mouseenter(function () {
         $("#observation").removeClass("leave").removeClass("middle").addClass("observation")
     }).mouseleave(function () {
@@ -68,7 +70,6 @@ $(function(){
     }).mouseleave(function () {
         $("#observation").removeClass("observation1").addClass("leave")
     });
-
 })
 
 
