@@ -16,9 +16,13 @@
 .nav_top span{
     float:left;color:#916f53;
     height:57px;line-height:57px;
+    position: relative;
+    top:8px;
 }
 .center .nav_lie{
     float:right;height:57px;
+    position: relative;
+    top:8px;
 }
 .nav_lie>a{
     text-decoration:none;
