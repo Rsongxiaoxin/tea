@@ -41,6 +41,138 @@
 .nav_cen>a:hover{
     background:#ccac82;
 }
+/* 鼠标放上去下拉菜单 */
+.observation{
+	position: absolute;
+	z-index: 999;
+	width: 1420px;
+	background-color: #0c0e11;
+	display:block;
+	height: 180px;
+	left: -301px;
+	padding: 20px 0;
+	transform-origin:0 0 ;
+	animation: loading3 0.2s linear;
+	overflow:hidden
+}
+.observation1{
+	position: absolute;
+	z-index: 999;
+	width: 1420px;
+	background-color: #0c0e11;
+	display:block;
+	height: 180px;
+	left: -301px;
+	padding: 20px 0;
+	transform-origin:0 0 ;
+    overflow:hidden;
+    border-bottom:#0c0e11;
+}
+@keyframes loading3{
+	0%{
+		height: 0px;
+		padding: 0px 0;
+	}
+	100%{
+		height: 180px;
+		padding: 20px 0;
+	}
+}
+.leave{
+	position: absolute;
+	z-index: 999;
+	width: 1420px;
+	background-color: #0c0e11;
+	display:block;
+	height: 0px;
+	left: -301px;
+	padding: 0px 0;
+	transform-origin:0 0 ;
+	animation: loading4 0.2s linear;
+	overflow:hidden
+}
+@keyframes loading4{
+	0%{
+		height: 180px;
+		padding: 20px 0;
+	}
+	100%{
+		height: 0px;
+		padding: 0px 0;
+	}
+}
+/*.middle{
+	position: absolute;
+	z-index: 999;
+	width: 1420px;
+	background-color: #0c0e11;
+	display:none;
+	height: 180px;
+	left: -100px;
+	padding: 20px 0;
+	transform-origin:0 0 ;
+	overflow:hidden
+}*/
+#observation>div{
+	margin-left: 4%;
+	z-index: 999;
+}
+#observation>div>a{
+	width: 102px;
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 14px;
+	color: #916f53;
+	border-left: 1px solid #242628;
+	height: 100%;
+	text-align: center;
+	padding-top: 105px;
+	background: url(../img/nav_one/pro-nav.png) no-repeat;
+}
+#observation>div>a:hover{
+	color: #ccac82;
+}
+#observation>div>a:nth-child(1){
+	background-position: -695px 23px;
+	border-left: 0;
+}
+#observation>div>a:nth-child(2){
+	background-position: -803px 23px;
+}
+
+#observation>div>a:nth-child(3){
+	background-position: 20px 23px;
+}
+#observation>div>a:nth-child(4){
+	background-position: -180px 23px;
+}
+#observation>div>a:nth-child(5){
+	background-position: -284px 23px;
+}
+#observation>div>a:nth-child(6){
+	background-position: -387px 23px;
+}
+#observation>div>a:nth-child(7){
+	background-position: -80px 23px;
+}
+#observation>div>a:nth-child(8){
+	background-position: -905px 23px;
+}
+#observation>div>a:nth-child(9){
+	background-position: -597px 23px;
+}
+#observation>div>a:nth-child(10){
+	background-position: -1005px 23px;
+}
+#observation>div>a:nth-child(11){
+	background-position: -1109px 23px;
+}
+#observation>div>a:nth-child(12){
+	background-position: -1208px 23px;
+}
+.middle>div>a>span{
+	padding-top: 105px;
+}
 /*中间图片*/
 .tea_c>.sec1{
   background:url(../img/nav_one/s1-bg.jpg);
@@ -105,8 +237,7 @@
     position: relative;
 }
 .section2>.banner2>.viewport>.outsourcing>.slider>li{
-    display: inline-block;
-    float: left;
+    display: inline-block;    
 }
 
 .section2>.banner2>.viewport>.bx-controls{
