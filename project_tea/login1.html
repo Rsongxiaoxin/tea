@@ -10,21 +10,21 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
     <link rel="stylesheet" href="css/login.css">
-    <script src="js/header.js"></script>
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
 <header class="tea_header">
     <a href="index.html"><img src="img/header/logo.png" alt=""></a>
     <div class="tea_center">
-        <div><a href="#">小茶馆</a></div>
-        <div><a href="nav_two.html">制茶大师</a></div>
-        <div><a href="#">小罐茶具</a></div>
-        <div><a href="#">健康喝茶</a></div>
-        <div><a href="nav_five.html">限量版黑罐</a></div>
-        <div><a href="#">在线商店</a></div>
-        <div><a href="#">招商</a></div>
+        <div><a href="nav_one.html">小茶馆</a></div>
+            <div><a href="nav_two.html">制茶大师</a></div>
+            <div><a href="nav_three.html">小罐茶具</a></div>
+            <div><a href="nav_four.html">健康喝茶</a></div>
+            <div><a href="nav_five.html">限量版黑罐</a></div>
+            <div><a href="#">在线商店</a></div>
+            <div><a href="#">招商</a></div>
     </div>
     <div class="tea_right">
         <span></span>
@@ -41,9 +41,9 @@
 <h2>小罐茶用户登录</h2>
 <div class="login">
     <div style="text-align:center;">
-        <form action="" method="post">
+        <form id="app" action="" method="post">
             <input type="text" placeholder="中国(+86)" readonly="readonly"><br>
-            <input type="text" placeholder="请您务必输入手机号(必填)！"><br>
+            <input v-focus type="text" placeholder="请您务必输入手机号(必填)！"><br>
             <input type="text" placeholder="请输入验证码哦！"><br>
             <input type="password" placeholder="请输入您的安全密码！">
             <div class="zhuce">
@@ -99,6 +99,7 @@
         </div>
     </div>
 </div>
+<script src="js/header.js"></script>
 <script src="js/tea_bottom_tan.js"></script>
 </body>
 </html>
