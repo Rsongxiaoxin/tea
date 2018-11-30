@@ -59,17 +59,20 @@ $(function(){
     });
 
 
-    // 下拉菜单
-    $(".ite>a:eq(0)").mouseenter(function () {
-        $("#observation").removeClass("leave").removeClass("middle").addClass("observation")
+    // 下拉菜单.ite>a:eq(0)
+    $(".ite").mouseenter(function () {//给a标签设置鼠标触发事件
+        //给observation删除原始属性，并添加新属性
+        $("#observation").removeClass("leave").addClass("observation")
     }).mouseleave(function () {
+        //给observation失去焦点的时候
         $("#observation").removeClass("observation").addClass("leave")
     })
     $("#observation").mouseenter(function () {
-        $("#observation").removeClass("leave").removeClass("middle").addClass("observation1")
+        $("#observation").removeClass("leave").addClass("observation1")
     }).mouseleave(function () {
         $("#observation").removeClass("observation1").addClass("leave")
     });
+
 })
 
 
