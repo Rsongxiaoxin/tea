@@ -17,8 +17,10 @@
     height:68px;line-height:61px;
 }
 .center .nav_lie{
-    float:right;height:57px;
-    position:absolute;right:366px;
+    float:right;
+    height:57px;
+    position:absolute;
+    right:366px;
 }
 .nav_lie>a{
     text-decoration:none;
@@ -28,8 +30,9 @@
     display:inline-block;
 }
 .nav_lie>a:hover{
-    border-bottom:2px solid #ccac82;
-    color:#ccac82;
+    /* border-bottom:2px solid #ccac82; */
+    color:#e2c8b2;
+
 }
 .nav_cen>a{
     position:absolute;right:10px;top:10px;
@@ -39,7 +42,8 @@
     line-height:35px;
 }
 .nav_cen>a:hover{
-    background:#ccac82;
+    color:#000;
+    background:#bfac9b;
 }
 /* 鼠标放上去下拉菜单 */
 .observation{
@@ -52,8 +56,9 @@
 	left: -301px;
 	padding: 20px 0;
 	transform-origin:0 0 ;
-	animation: loading3 0.2s linear;
-	overflow:hidden
+	animation: loading1 .2s linear;
+    overflow:hidden;
+    top:49px;
 }
 .observation1{
 	position: absolute;
@@ -67,8 +72,9 @@
 	transform-origin:0 0 ;
     overflow:hidden;
     border-bottom:#0c0e11;
+    top:49px;
 }
-@keyframes loading3{
+@keyframes loading1{
 	0%{
 		height: 0px;
 		padding: 0px 0;
@@ -86,12 +92,13 @@
 	display:block;
 	height: 0px;
 	left: -301px;
-	padding: 0px 0;
+    padding: 0px 0px;
 	transform-origin:0 0 ;
-	animation: loading4 0.2s linear;
-	overflow:hidden
+	animation: loading2 .2s linear;
+    overflow:hidden;
+    top:49px;
 }
-@keyframes loading4{
+@keyframes loading2{
 	0%{
 		height: 180px;
 		padding: 20px 0;
@@ -130,7 +137,8 @@
 	background: url(../img/nav_one/pro-nav.png) no-repeat;
 }
 #observation>div>a:hover{
-	color: #ccac82;
+    color: #ccac82;
+    text-decoration:none;
 }
 #observation>div>a:nth-child(1){
 	background-position: -695px 23px;

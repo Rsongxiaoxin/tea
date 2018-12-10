@@ -26,14 +26,15 @@
 }
 .nav_lie>a{
     text-decoration:none;
-    font-size:13px;line-height:57px;
+    font-size:13px;
+    line-height:57px;
     color:#916f53;
     margin: 0 0 0 29px;
     display:inline-block;
 }
 .nav_lie>a:hover{
     border-bottom:3px solid #ccac82;
-    color:#ccac82;
+    color:#ecd3b2;
 }
 /*大图*/
 .center_dt{
