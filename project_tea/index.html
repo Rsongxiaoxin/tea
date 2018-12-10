@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>遇见茶馆首页</title>
     <link rel="shortcut icon" href="01.ico"  type="image/x-icon"/>
-    <embed src="bgm/01.mp3" hidden="true" autostart="true" loop="false" type="">
+    
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery.min.js"></script>
@@ -40,48 +40,43 @@
     </header>
     <!--主体-->
     <!--轮播图-->
-    <div class="container">
-        <!--start轮播-->
-        <div id="mycar" class="carousel" data-ride="carousel">
-            <!--录播图片-->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="#">
-                        <img src="img/index/banner-1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#">
-                        <img src="img/index/banner-2.jpg"  alt="">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#">
-                        <img src="img/index/banner-3.jpg"  alt="">
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#">
-                        <img src="img/index/banner-4.jpg"  alt="">
-                    </a>
-                </div>
-            </div>
-            <!--左右按钮-->
-            <a href="#mycar" class="carousel-control-next" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-            <a href="#mycar" class="carousel-control-prev" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <!--指示器-->
-            <ul class="carousel-indicators">
-                <li data-slide-to="0" data-target="#mycar" class="active"></li>
-                <li data-slide-to="1" data-target="#mycar" class=""></li>
-                <li data-slide-to="2" data-target="#mycar" class=""></li>
-                <li data-slide-to="3" data-target="#mycar" class=""></li>
-            </ul>
+<div class="banner">
+    <div class="menu-wrap">
+        <div class="pagination">
+            <span class="current"></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </div>
+    <div class="wrapper">
+        <div class="content_1 in">
+            <div class="introduce1">
+                <h3>小罐茶，大师作</h3>
+                <p>8位制茶大师作品</p>
+            </div>
+        </div>
+        <div class="content_2">
+            <div class="introduce1">
+                <h3>8位制茶大师</h3>
+                <p>用顶峰，奠基中国茶新未来</p>
+            </div>
+        </div>
+        <div class="content_3">
+            <div class="introduce3">
+                <h3>每一罐，都是充氮保鲜</h3>
+                <p class="v1">小罐保鲜，茶叶常温保鲜的重大突破</p>
+                <p class="v2">（大红袍、白茶、普洱茶除外）</p>
+            </div>
+        </div>
+        <div class="content_4">
+            <div class="introduce1">
+                <h3>现代派中国茶</h3>
+                <p>喝茶，更高雅的社交</p>
+            </div>
+        </div>
+    </div>
+</div>
     <!--三张小图-->
     <div class="tea_xt">
         <div class="tea_xt1">
@@ -185,7 +180,7 @@
         </div>
     </div>
     <script src="js/tea_bottom_tan.js"></script>
-
+    <script src="js/index.js"></script>
 </body>
 </html>
 
